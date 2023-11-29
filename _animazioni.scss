@@ -1,0 +1,16 @@
+#bottoni > button:hover {
+    transform: scale(1.1);
+}
+
+@mixin fadeIn($duration: 1s, $distance: 20px) {
+    opacity: 0;
+    transform: translateY(-$distance);
+    animation: fadeInSlideDownAnimation $duration ease-in-out forwards;
+  
+    @keyframes fadeInSlideDownAnimation {
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }

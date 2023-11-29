@@ -1,0 +1,15 @@
+button {
+    @include stileBottoni;
+}
+
+button:first-child {
+    background-color: #0e6cff;
+}
+
+button:nth-child(2) {
+    background-color: #ff8700;
+}
+
+button:last-child {
+    background-color: #4caf50;
+}

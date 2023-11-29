@@ -1,0 +1,19 @@
+@mixin grandezzaTesti($caratteristica, $valore) {
+    font-#{$caratteristica}: $valore;
+    font-#{$caratteristica}: $valore;
+}
+
+
+@mixin floating {
+    border-radius: 15px;
+    box-shadow: 21px 33px 15px -3px rgba(0,0,0,0.1);
+}
+
+@mixin stileBottoni {
+    border-radius: 5px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+
